@@ -1,9 +1,9 @@
 # Aplikasi Blog - Sistem Manajemen Konten (CMS)
 
-**Nama:** Sofwan Hakim S.
-**NIM:** 240605110181
-**Mata Kuliah:** Pemrograman Web
-**Dosen:** A'la Syauqi M.Kom.
+Nama: Sofwan Hakim S.
+NIM: 240605110181
+Mata Kuliah: Pemrograman Web
+Dosen: A'la Syauqi M.Kom.
 
 ---
 
@@ -53,4 +53,27 @@ Pastikan perangkat sudah terinstall:
 
 ### Instalasi
 
-1. Clone repositori ini
+1. Clone repositori ini (https://github.com/sofwan521/aplikasi-blog-240605110181.git)
+2. Masuk ke folder project (cd aplikasi-blog-240605110181)
+3. Install dependencies (composer install)
+4. Salin file konfigurasi environment (cp .env.example .env)
+5. Generate application key (php artisan key:generate)
+6. Buat database baru bernama `db_blog` di phpMyAdmin, kemudian import file SQL yang tersedia
+7. Sesuaikan konfigurasi database di file `.env`
+(DB_DATABASE=db_blog
+
+DB_USERNAME=root
+
+DB_PASSWORD=)
+8. Buat symbolic link untuk storage (php artisan storage:link)
+9. Jalankan server (php artisan serve)
+10. Buka aplikasi di browser (http://127.0.0.1:8000)
+### Akun Default
+
+| Username | Password |
+|----------|----------|
+| budi | password |
+| wati | password |
+
+## Link Video Demonstrasi
+https://youtu.be/qr_5PEnIz5c
