@@ -4,7 +4,7 @@ Nama: Sofwan Hakim S.
 
 NIM: 240605110181
 
-Mata Kuliah: Pemrograman Web
+Mata Kuliah: Pemrograman Web B
 
 Dosen: A'la Syauqi M.Kom.
 
